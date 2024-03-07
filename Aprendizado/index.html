@@ -4,25 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
 <body>
-    <form action="">
-        <label for="">Nome Completo</label>
-        <input type="text"  name="Ncompleto">
-        <label for="">Sobrenome</label>
-        <input type="text" name="Sobrenome" >
-        <label for="">Senha</label>
-        <input type="password">
-        <label for="">Confirmar Senha</label>
-        <input type="password">
-        <label for="">Data de Nascimento</label>
-        <input type="date" >
-        <label for="action">Sexo:</label>
-        <label for="">Masculino</label>
-        <input type="checkbox" >
-        <label for="">Feminino</label>
-        <input type="checkbox" >
+    <div class="telalogin">
+        <form action="">
+            <h1>login</h1>
+            <div class="input-p">
+                <label for="" >
+                    <input type="text" placeholder="Nome Completo" required>
+                    <i class='bx bx-user' ></i>
+                </label>
+            </div>
+            <div class="input-p">
+                <label for="" >
+                    <input type="text" placeholder="Sobrenome" required>
+                    <i class='bx bx-user' ></i>
+                </label>
+            </div>
+            <div class="input-p">
+                <label for="" >
+                    <input type="mail" placeholder="Email" required>
+                    <i class='bx bx-envelope' ></i>
+                    
+                </label>
+            </div>
+            <div class="input-p">
+                <label for="" >
+                    <input type="password" placeholder="Senha" required>
+                    <i class='bx bx-key'></i>
+                </label>
+                <div class="input-p">
+                    <label for="" >
 
-    </form>
+                        <input type="password" placeholder="Confirmar Senha" required>
+                        <i class='bx bx-key'></i>
+                    </label>
+                </div>
+            </div>
+            <Label><input type="checkbox" >Eu declaro que todas as informações providas são verdadeiras e estão corretas.</Label>
+
+            <button type="submit"> Registrar</button>
+        </form>
+    </div>
 </body>
 </html>
