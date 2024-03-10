@@ -9,8 +9,12 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: rgba(122, 168, 13, 0.534);
-    margin: 10px;
+    background-image: url(astronomia-do-ceu-noturno-galactico-e-ciencia-combinaram-ia-generativa_188544-9656.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
 
     
 }
@@ -18,7 +22,7 @@
 form{
     border-radius: 12px;
     color: rgb(255, 255, 255);
-    background-color: rgba(139, 0, 65, 0.507);
+    background-color: rgba(255, 93, 93, 0.185);
     width: auto;
     padding: 20px;
     text-align: center;
@@ -29,20 +33,59 @@ form h1{
     margin: 30px;
     text-align: center;
     font-size: 60px;
-    background-color: rgb(50, 0, 97);
 }
 input{
-    
-    margin: 6px;
+    border-radius: 10px;
     padding: 15px;
     width: 30em;
     font-size: 15px;
-    background-color: coral;
     color: rgb(255, 255, 255);
     
 }
-i{
+.txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60em;
+    font-size: 15px;
+    margin-top: 20px;
+
+}
+.txt .ox{
+    margin: 0;
+    padding: 0;
+    width: 10px;
     
 }
 
+.btn-register{
+    text-decoration: none;
+    padding: 20px;
+    margin: 24px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: rgba(255, 93, 93, 0.459);
+    font-weight: bold;
+    animation: pulse 2s infinite;
 
+}
+
+@keyframes pulse {
+0% {
+    transform: scale(1);
+}
+50% {
+    transform: scale(1.1);
+}
+100% {
+    transform: scale(1);
+}
+}
+
+.btn-register:hover {
+    animation: none;
+    background-color: rgba(252, 0, 0, 0.5);
+    transition: 2s;
+
+}
