@@ -85,7 +85,7 @@ input{
 
 .btn-register:hover {
     animation: none;
-    background-color: rgba(252, 0, 0, 0.5);
+    background-color: rgba(172, 1, 1, 0.5);
     transition: 2s;
 
 }
