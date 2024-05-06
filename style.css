@@ -24,7 +24,7 @@ form{
     color: rgb(255, 255, 255);
     background-color: rgba(255, 93, 93, 0.185);
     width: auto;
-    padding: 20px;
+    padding: 50px;
     text-align: center;
     
 }
@@ -35,11 +35,12 @@ form h1{
     font-size: 60px;
 }
 input{
+    margin-top: 6px;
     border-radius: 10px;
-    padding: 15px;
-    width: 30em;
+    padding:10px;
+    width: 32em;
     font-size: 15px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     
 }
 .txt{
@@ -60,8 +61,8 @@ input{
 
 .btn-register{
     text-decoration: none;
-    padding: 30px;
-    margin: 24px;
+    padding: 32px;
+    margin: 28px;
     border: none;
     cursor: pointer;
     font-size: 15px;
